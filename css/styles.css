@@ -43,11 +43,15 @@ a:hover{
 /*****************************************/
 #principal{
     margin-top: 3.125em;
-    min-height: 28.125em;
+    /*height: 28.125em;*/
+}
+
+.espacio {
+    min-height: calc(100vh - 4.6875em);
 }
 
 /*****************************************/
-/* Estilos de principal */
+/* Estilos de pie */
 /*****************************************/
 
 #pie {
@@ -56,3 +60,17 @@ a:hover{
     height: 4.6875em;
 }
 
+/*****************************************/
+/* Estilos de producto */
+/*****************************************/
+.espacio-row{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#producto {
+    background: -webkit-linear-gradient(90deg, #6859EA 10%, #6ACBE0 90%);
+    background: -moz-linear-gradient(90deg, #6858EA 10%, #6ACBE0 90%);
+    background: linear-gradient(90deg, #6858EA 10%, #6ACBE0 90%);
+    color: #FFFFFF;
+}
