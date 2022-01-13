@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="css/styles.css">
 
-    <title>Producto</title>
+    <title>Contacto</title>
 </head>
 <body>
     <header id="headernav">
@@ -28,8 +28,8 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav  ml-auto">
-                  <a class="nav-link link-menu" aria-current="page" href="index.html">Inicio</a>
-                  <a class="nav-link active link-menu" href="producto.html">Producto</a>
+                  <a class="nav-link active link-menu" aria-current="page" href="index.html">Inicio</a>
+                  <a class="nav-link link-menu" href="producto.html">Producto</a>
                   <a class="nav-link link-menu" href="contacto.html">Contacto</a>
                 </div>
               </div>
@@ -38,44 +38,40 @@
 
     </header>
 
-    <section id="producto">
-        <div class="container">
+    <section id="contacto">
+        <div class="container espacio">
             <div class="row justify-content-md-center espacio-row">
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <h1>
-                        Producto
+                        Ponte en contacto
                     </h1>
                     <p>
-                        Selecciona el smartwatch que más se apegue a tu personalidad.
+                        Nos interesa conocer tu opinión, sugerencias, quejas y responder a tus preguntas.
                     </p>
+                    <div class="mb-3">
+                        <input name="nombre" id="nombre" class="form-control" placeholder="Nombre">
+                    </div>
+
+                    <div class="mb-3">
+                        <input name="correo" id="correo" class="form-control" placeholder="Correo electrónico">
+                    </div>
+
+                    <div class="mb-3">
+                        <input name="asunto" id="asunto" class="form-control" placeholder="Asunto">
+                    </div>
+
+                    <div class="mb-3">
+                        <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe aquí tu mensaje"></textarea>
+                    </div>
+
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-3" name="enviar" id="enviar">Enviar</button>
+                      </div>
+
                 </div>
             </div>
 
-            <dic class="row justify-content-md-center espacio-row">
-                    <div class="col-md-3">
-                        <img src="images/watch/watch1.png" width="250" class="img-fluid" alt="" srcset="">
-                        <p> <strong>Reloj 1</strong> </p>
-                        <p> <strong>$81</strong> </p>
-                        <button type="button" class="btn btn-outline-light">Comprar</button>
-                    </div>
-
-                    <div class="col-md-3">
-                        <img src="images/watch/watch4.png" width="250" class="img-fluid" alt="" srcset="">
-                        <p> <strong>Reloj 2</strong> </p>
-                        <p> <strong>$75</strong> </p>
-                        <button type="button" class="btn btn-outline-light">Comprar</button>
-                    </div>
-
-                    <div class="col-md-3">
-                        <img src="images/watch/watch5.png" width="250" class="img-fluid" alt="" srcset="">
-                        <p> <strong>Reloj 3</strong> </p>
-                        <p> <strong>$69</strong> </p>
-                        <button type="button" class="btn btn-outline-light">Comprar</button>
-                    </div>
-            </dic>
-
         </div>
-    
 
     </section>
 
