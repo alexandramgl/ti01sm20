@@ -7,9 +7,13 @@
 
 body{
     font-family: 'Rubik',sans-serif;
-    font-size: 1em;
+    font-size: 100%;
     color: #707070;
     text-align: center;
+}
+
+img{
+    max-width: 100%;
 }
 
 h1{
@@ -20,6 +24,10 @@ h1{
 h3 {
     color: #3B3B3B;
     font-size: 1.375em;
+}
+
+.border{
+    
 }
 
 /*****************************************/
